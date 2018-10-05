@@ -9,11 +9,11 @@ public class Bank {
 	}
 	
 	public boolean addAccount(Account newone){
-		if (accts.size()==0){
-			accts = new ArrayList<Account>();
-			accts.add(newone);
-			return true;
-		}
+		// if (accts.size()==0){
+		// 	accts = new ArrayList<Account>();
+		// 	accts.add(newone);
+		// 	return true;
+		// }
 		if (accts.size()<=30){
 			accts.add(newone);
 			return true;
